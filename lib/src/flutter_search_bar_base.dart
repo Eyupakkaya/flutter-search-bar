@@ -148,6 +148,7 @@ class SearchBar {
       title: Directionality(
         textDirection: Directionality.of(context),
         child: TextField(
+          textInputAction: TextInputAction.search,
           key: Key('SearchBarTextField'),
           keyboardType: TextInputType.text,
           decoration: InputDecoration(
